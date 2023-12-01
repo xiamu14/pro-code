@@ -1,0 +1,19 @@
+{
+  "name": "xxx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "cd packages/core && npx renew-it",
+    "dev": "pnpm -r --filter=xxx run build && pnpm i xxx -r --filter example"
+  },
+  "keywords": [],
+  "author": "ben",
+  "license": "ISC",
+  "dependencies": {
+    "renew-it": "^1.5.2",
+    "rimraf": "^5.0.1",
+    "typescript": "^4.1.0"
+  }
+}
